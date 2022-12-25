@@ -20,7 +20,7 @@ Threshold the point cloud from the middle and create DSM of middle layer.
 **`Step 2`**
 Applying binary morphological operations. First binary closing and then dilation is applied. In binary closing, erosion occurs followed by dilation. Erosion eliminates the outliers, whereas dilation fills in the black pixels between the crowns and stems.
 
-<img src='files for readme\step2.png' width='600'>
+<img src="files for readme\step2.png" width='600'>
 
 **`Step 3`**
 Find the centroid for every object in the image. These are seed_1.
