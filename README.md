@@ -5,9 +5,8 @@ This method is for identifying individual tree crowns from airborne LiDAR data. 
 
 |Developed By|
 |:-|
-|[Vidhan Jain](https://github.com/vidhanjain03) (me)|
-|[Animesh Singh](https://github.com/animeshdebug7)|
-
+|[Animesh Singh](https://github.com/animeshdebug7) (me)|
+|[Vidhan Jain](https://github.com/vidhanjain03)|
 
 **`Under supervision of Dr. Anand S. Sahadevan, Scientist, SAC, ISRO, Ahmedabad, India`**
 
