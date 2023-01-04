@@ -1,5 +1,7 @@
 # Tree-Crown-Detection-and-Segmentation
 
+**GO TO:** [`Results`](Output)
+
 ## About
 This method is for identifying individual tree crowns from airborne LiDAR data. The method is used to delineate tree crowns using a region-growing algorithm after initially identifying tree tops in the rasterised middle and top layer of the point cloud.The accuracy is measured through the estimated values and the ground truth.
 
@@ -57,4 +59,10 @@ Replace small clusters of seed_2 with single seed. That is our tree top.
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/66486050/210488903-baae84b0-6a2e-4016-ad23-14613172772f.png" width=50% height=50%>
+</p>
+
+## Output
+The following results were obtained using the watershed segmentation
+<p align="center">
+<img src="https://user-images.githubusercontent.com/66486050/210489772-daecd919-630a-4291-85c1-3e40946dc43f.png" width=50% height=50%>
 </p>
