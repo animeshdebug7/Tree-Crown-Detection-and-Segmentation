@@ -64,3 +64,6 @@ The following results were obtained using the watershed segmentation
 <p align="center">
 <img src="https://user-images.githubusercontent.com/66486050/210489772-daecd919-630a-4291-85c1-3e40946dc43f.png" width=50% height=50%>
 </p>
+
+## Findings
+We have described the technique which has produced relatively precise results compared to other pre-existing methods. The accuracy of this method recedes when canopy is too small and adjoint because when large morphological kernel is used, more than one tree trunk will merge. For a small kernel, one tree will have more than one seed. To counter this problem, we take kernel size to distinguish two tree trunks and when more than one seed point for a single tree is observed, the cluster is replaced by a single seed. When canopies are larger, the accuracy increases. In the graph, plot 1, plot 3 estimated values are more deviated compared to plot 4 as these plots are of smaller canopies in a dense forest. The parameters of plots vary according to species of tree, sun position, slope of terrain, density of forest and other environmental conditions. The patch size for seed2 is taken between 50 - 100 as the image resolution is 2cm implying the tree top is going to be in the radius of 1 - 2 metres. The accurate tree tops is used in the region based image segmentation algorithm.
